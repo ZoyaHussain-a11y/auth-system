@@ -17,26 +17,26 @@ It includes a professional **Landing Page**, **User Login & Signup**, and an **A
 
 ## Project Features
 
- **Landing Page**
+✅ **Landing Page**
 - Modern and responsive header section  
 - Styled for both dark and light modes
 
- **Authentication (Supabase)**
+✅ **Authentication (Supabase)**
 - Sign up with email, password, first name, and last name  
 - Email confirmation required before login  
 - Secure session management  
 
- **Admin Dashboard**
+✅ **Admin Dashboard**
 - Displays user data  
 - Accessible only after successful login  
 
- **Responsive UI**
+✅ **Responsive UI**
 - Fully optimized for all screen sizes  
 - Dark/Light mode support  
 
 ---
 
-## Folder Structure
+## 🗂️ Folder Structure
 project-root/
 ├── app/
 │ ├── (auth)/
@@ -61,7 +61,7 @@ project-root/
 
 ---
 
-## Environment Variables
+## 🔑 Environment Variables
 
 Create a `.env.local` file in the root of your project and add:
 
@@ -72,7 +72,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 ⚠️ Do not commit this file to GitHub — it contains sensitive credentials.
 
- Getting Started
+🧠 Getting Started
 
 First, install dependencies:
 
@@ -95,7 +95,7 @@ pnpm dev
 Now open http://localhost:3000
  to view the app.
 
- Supabase Setup
+🧰 Supabase Setup
 
 Go to Supabase
 
@@ -111,7 +111,7 @@ Turn ON the “Enable Email Signup” option
 
 (Optional) Create tables in Database → Table Editor
 
- Authentication Workflow
+🧪 Authentication Workflow
 
 Users Sign Up → Confirm Email (Supabase sends verification)
 
@@ -121,8 +121,8 @@ Session is persisted using Supabase Auth Helpers
 
 Admin Dashboard requires a valid authenticated session
 
- Deployment
- Deploy on Vercel
+📦 Deployment
+▶️ Deploy on Vercel
 
 The easiest way to deploy your Next.js app is via Vercel
 :
