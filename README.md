@@ -61,6 +61,14 @@ project-root/
 
 ---
 
+## 🔑 Environment Variables
+
+Create a `.env.local` file in the root of your project and add:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+
 
 ⚠️ Do not commit this file to GitHub — it contains sensitive credentials.
 
@@ -86,6 +94,7 @@ pnpm dev
 
 Now open http://localhost:3000
  to view the app.
+
 
 🧪 Supabase Authentication Workflow
 
