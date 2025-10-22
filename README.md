@@ -1,11 +1,11 @@
-# Next.js + Supabase Authentication & Dashboard
+# 🚀 Next.js + Supabase Authentication & Dashboard
 
 This is a **Next.js** project integrated with **Supabase** for authentication, database management, and session handling.  
 It includes a professional **Landing Page**, **User Login & Signup**, and an **Admin Dashboard**.
 
 ---
 
-## Tech Stack
+## 🧩 Tech Stack
 
 - **Next.js 14+** (App Router)
 - **TypeScript**
@@ -15,7 +15,7 @@ It includes a professional **Landing Page**, **User Login & Signup**, and an **A
 
 ---
 
-## Project Features
+## ⚙️ Project Features
 
 ✅ **Landing Page**
 - Modern and responsive header section  
@@ -61,6 +61,17 @@ project-root/
 
 ---
 
+## 🔑 Environment Variables
+
+Create a `.env.local` file in the root of your project and add:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+
+
+⚠️ Do not commit this file to GitHub — it contains sensitive credentials.
+
 🧠 Getting Started
 
 First, install dependencies:
@@ -84,7 +95,23 @@ pnpm dev
 Now open http://localhost:3000
  to view the app.
 
-🧪 Supabase Authentication Workflow
+🧰 Supabase Setup
+
+Go to Supabase
+
+Create a new project
+
+Copy your project’s URL and anon key into .env.local
+
+Enable Email Authentication
+
+Navigate to Authentication → Providers → Email
+
+Turn ON the “Enable Email Signup” option
+
+(Optional) Create tables in Database → Table Editor
+
+🧪 Authentication Workflow
 
 Users Sign Up → Confirm Email (Supabase sends verification)
 
