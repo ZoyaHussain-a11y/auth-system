@@ -61,14 +61,6 @@ project-root/
 
 ---
 
-## 🔑 Environment Variables
-
-Create a `.env.local` file in the root of your project and add:
-
-```bash
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-
 
 ⚠️ Do not commit this file to GitHub — it contains sensitive credentials.
 
@@ -95,23 +87,7 @@ pnpm dev
 Now open http://localhost:3000
  to view the app.
 
-🧰 Supabase Setup
-
-Go to Supabase
-
-Create a new project
-
-Copy your project’s URL and anon key into .env.local
-
-Enable Email Authentication
-
-Navigate to Authentication → Providers → Email
-
-Turn ON the “Enable Email Signup” option
-
-(Optional) Create tables in Database → Table Editor
-
-🧪 Authentication Workflow
+🧪 Supabase Authentication Workflow
 
 Users Sign Up → Confirm Email (Supabase sends verification)
 
